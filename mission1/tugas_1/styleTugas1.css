@@ -1,0 +1,129 @@
+.container {
+    height: 97vh;
+    display:grid;
+    grid-template-columns: [col1] 33% [col2] 33% [col3] auto [col4] auto;
+    grid-template-rows: [row1] 16.6% [row2] 16.6% [row3] 16.6%[row4] 16.6% [row5] 16.6% [row6] auto;
+}
+
+.borderHitam{
+    border : 2px solid black;
+}
+
+.boxBiruTua{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #0070c0;
+}
+
+.boxKuning{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: yellow;
+}
+
+.boxMerah{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: red;
+}
+
+.boxHijau{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: #00b050;
+}
+
+.boxHitam{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: black;
+}
+
+.boxCoklat{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #806000;
+}
+
+.boxPutih{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: white;
+}
+
+.boxPink{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #ff99ff;
+}
+
+.boxBiru{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #00b0f0;
+}
+
+.boxUngu{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: purple;
+}
+
+.boxOren{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #ffc000;
+}
+
+.boxAbu{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: #a6a6a6;
+}
+
+.textPutih{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.textHitam{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : black;
+}
