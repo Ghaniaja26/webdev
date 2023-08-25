@@ -1,5 +1,3 @@
-
-
 .logoContainer{
     margin-left: 210px;
     margin-right: 210px;
@@ -21,14 +19,10 @@
     padding-left : 480px;
 }
 
-
-/* Judul */
-
 .styleJudul{
     text-align: center;
     font-size: 3.75rem;
     font-family: serif;
-
 }
 
 .redBold{
@@ -45,12 +39,14 @@
     padding-bottom: 2rem;
 }
 
+.flex{
+    display:flex;
+}
+
 .padTop{
     padding-top: 40px;
 }
 
-
-/* textDibawahJudul */
 .descriptionText{
     font-size : 1.375rem;
     color: #778298;
@@ -86,6 +82,7 @@
 }
 
 .subTitle{
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
     font-size: 1.625rem;
@@ -95,8 +92,96 @@
 .textDesOfSubTittle{
     font-size: 1.125rem;
     color: #778298;
-    margin-bottom: 2rem;
     text-align: center;
+}
+
+.desContainer{
+    margin-bottom: 2rem;
+    max-width: 351px;
+    max-height: 108;
+}
+
+.imgContainer{
+    text-align: center;
+}
+
+.styleMeetYourFriend{
+    font-size : 45px;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #091836;
+}
+
+.ml20{
+    margin-left : 20px;
+}
+
+.personName{
+    font-size: 1.625rem;
+    color: #091836;
+}
+
+.personInformation{
+    color: #778298;
+}
+
+.footer-style{
+    height: 72px;
+    color: #778298;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+  }
+
+.text2022{
+    color: #778298;
+}
+
+.footer-navbar-style{
+    color: #778298;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.containerCard{
+    margin-left : auto;
+    margin-right : auto;
+    padding : 2rem;
+    background: #F3F4F6;
+}
+
+.text-bold{
+    margin-bottom: .5rem;
+    margin-top: 0;
+    color: #38404F;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-no-bold{
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: #778298;
+    font-size: 18px;
+}
+
+.emailBox2{
+    width: 360px;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
 }
 
 
