@@ -1,0 +1,64 @@
+h2,h3{
+    text-align: center;
+}
+
+#board{
+    width: 1200px;
+    height: 600px;
+    background: url('images/bg.jpg');
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+
+#area{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    overflow: hidden;
+}
+
+@keyframes lari{
+    0%{
+        background: url('images/run1.png');
+        background-size: 100% 100%;
+    }
+    20%{
+        background: url('images/run2.png');
+        background-size: 100% 100%;
+    }
+    50%{
+        background: url('images/run7.png');
+        background-size: 100% 100%;
+    }
+    75%{
+        background: url('images/run8.png');
+        background-size: 100% 100%;
+    }
+}
+
+#dino{
+    width: 150px;
+    height: 150px;
+    background: url('images/run1.png');
+    background-size: 100% 100%;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 100px;
+    animation: lari 0.3s infinite;
+    transition: 1s;
+}
+
+#dino.freeze{
+    animation: none;
+    background: url('images/run8.png');
+    background-size: 100% 100%;
+}
+
+#box{
+    width: 80px;
+    height: 80px;
+    margin-top: 440px;
+    background: url('images/redbox.png');
+    background-size: 100% 100%;
+    margin-left: 1200px;
+}

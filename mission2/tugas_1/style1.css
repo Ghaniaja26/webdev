@@ -1,0 +1,56 @@
+.margTop50{
+    margin-top: 50px;
+}
+
+.marginBot30{
+    margin-bottom: 30px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.containerBarang {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 40px;
+}
+
+.barang{
+    border: 2px solid;
+    height: 315px;
+}
+
+.tepiContainer{
+    border: 1px gray;
+    border-style: solid;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-item-image {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+.form-control{
+    width: 200px;
+}
+
+.detail-barang .form-control {
+    width: 100px; /* Ganti nilai lebar sesuai kebutuhan Anda */
+    text-align: center;
+}
+
+  
+.detail-barang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* ... (gaya lainnya) ... */
+}
+  
+
