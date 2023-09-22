@@ -9,9 +9,9 @@ Tutorial Menjalankannya :
 5. buka 2 terminal 
 6. pada terminal yang pertama ketik "cd backend" (tanpa kutip)
 7. lalu ketika sudah masuk ke backend, ketik "nodemon index" (tanpa kutip)
-(jika terjadi pada step no.7, mungkin itu masalah port nya. Maka dari itu 
-coba ubah portnya, di folder backend pada config/Database.js, ubah port nya 
-dari 3307 menjadi 3306 (default port mySQL))
+(jika terjadi error pada step no.7, mungkin itu masalah port nya. 
+Maka dari itu coba ubah portnya, di folder backend pada config/Database.js, 
+ubah port nya dari 3307 menjadi 3306 (default port mySQL))
 8. pada terminall yang kedua ketik "cd frontend" (tanpa kutip)
 9. lalu ketika sudah masuk ke frontend, ketik "npm start" (tanpa kutip)
 
